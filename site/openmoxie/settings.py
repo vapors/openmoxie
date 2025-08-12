@@ -97,13 +97,18 @@ DATABASES = {
     }
 }
 
+#MQTT_ENDPOINT = {
+#    'host': 'mqtt',
+#    'port': 8883,
+#    'project': 'openmoxie',
+#    'cert_required': False,
+#}
 MQTT_ENDPOINT = {
-    'host': 'mqtt',
+    'host': 'localhost',
     'port': 8883,
     'project': 'openmoxie',
     'cert_required': False,
 }
-
 BOOTSTRAP5 = {
     'css': {
         'url': '/static/bootstrap/css/bootstrap.min.css'

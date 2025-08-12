@@ -1,0 +1,340 @@
+2025-08-11 20:07:55,511 INFO [robot_data] Using 'default' schedule from database as schedule fallback
+2025-08-11 20:07:55,512 INFO [moxie_server] Creating client with id: d_supervisor
+2025-08-11 20:07:55,584 DEBUG [moxie_remote_chat] Registering OPENMOXIE_CHAT/default
+2025-08-11 20:07:55,584 DEBUG [moxie_remote_chat] Registering OPENMOXIE_CHAT/short
+2025-08-11 20:07:55,584 DEBUG [moxie_remote_chat] Registering OPENCONVO/reading
+2025-08-11 20:07:55,585 DEBUG [moxie_remote_chat] Registering OPENCONVO/storytelling
+2025-08-11 20:07:55,585 DEBUG [moxie_remote_chat] Registering OPENCONVO/story
+2025-08-11 20:07:55,585 DEBUG [moxie_remote_chat] Registering SIMPLELINE/default
+2025-08-11 20:07:55,585 DEBUG [moxie_remote_chat] Registering WAKEUP_LAUNCHER/ftue
+2025-08-11 20:07:55,585 DEBUG [moxie_remote_chat] Registering WAKEUP_LAUNCHER/more_10
+2025-08-11 20:07:55,585 DEBUG [moxie_remote_chat] Registering WAKEUP_LAUNCHER/less_10
+2025-08-11 20:07:55,585 DEBUG [moxie_remote_chat] Registering WAKEUP_LAUNCHER/first_time_today
+2025-08-11 20:07:55,585 DEBUG [moxie_remote_chat] Registering WAKEUP_LAUNCHER/scheduled
+2025-08-11 20:07:55,587 INFO [moxie_server] connecting to: localhost
+2025-08-11 20:07:55,651 INFO [moxie_server] Connected with result code 0
+2025-08-11 20:08:17,491 INFO [basehttp] "GET / HTTP/1.1" 302 0
+2025-08-11 20:08:17,498 INFO [basehttp] "GET /hive/ HTTP/1.1" 302 0
+2025-08-11 20:08:17,558 INFO [basehttp] "GET /hive/setup HTTP/1.1" 200 7018
+2025-08-11 20:08:17,623 INFO [basehttp] "GET /static/hive/style.css HTTP/1.1" 200 659
+2025-08-11 20:08:17,624 INFO [basehttp] "GET /static/js/jquery.js HTTP/1.1" 200 86351
+2025-08-11 20:08:17,624 INFO [basehttp] "GET /static/hive/openmoxie_logo.svg HTTP/1.1" 200 1096
+2025-08-11 20:08:17,690 INFO [basehttp] "GET /static/hive/favicon.svg HTTP/1.1" 200 902
+2025-08-11 20:08:55,609 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:09:55,610 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:10:55,610 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:11:32,498 INFO [views] Updated default Hive Configuration
+2025-08-11 20:11:32,500 DEBUG [moxie_remote_chat] Registering OPENMOXIE_CHAT/default
+2025-08-11 20:11:32,500 DEBUG [moxie_remote_chat] Registering OPENMOXIE_CHAT/short
+2025-08-11 20:11:32,500 DEBUG [moxie_remote_chat] Registering OPENCONVO/reading
+2025-08-11 20:11:32,500 DEBUG [moxie_remote_chat] Registering OPENCONVO/storytelling
+2025-08-11 20:11:32,500 DEBUG [moxie_remote_chat] Registering OPENCONVO/story
+2025-08-11 20:11:32,500 DEBUG [moxie_remote_chat] Registering SIMPLELINE/default
+2025-08-11 20:11:32,500 DEBUG [moxie_remote_chat] Registering WAKEUP_LAUNCHER/ftue
+2025-08-11 20:11:32,500 DEBUG [moxie_remote_chat] Registering WAKEUP_LAUNCHER/more_10
+2025-08-11 20:11:32,500 DEBUG [moxie_remote_chat] Registering WAKEUP_LAUNCHER/less_10
+2025-08-11 20:11:32,501 DEBUG [moxie_remote_chat] Registering WAKEUP_LAUNCHER/first_time_today
+2025-08-11 20:11:32,501 DEBUG [moxie_remote_chat] Registering WAKEUP_LAUNCHER/scheduled
+2025-08-11 20:11:32,502 INFO [basehttp] "POST /hive/hive_configure/ HTTP/1.1" 302 0
+2025-08-11 20:11:32,524 INFO [basehttp] "GET /hive/dashboard HTTP/1.1" 200 4000
+2025-08-11 20:11:44,508 INFO [basehttp] "GET /hive/endpoint/ HTTP/1.1" 200 1174
+2025-08-11 20:11:44,558 WARNING [log] Not Found: /favicon.ico
+2025-08-11 20:11:44,559 WARNING [basehttp] "GET /favicon.ico HTTP/1.1" 404 2839
+2025-08-11 20:11:55,611 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:12:12,864 DEBUG [moxie_remote_chat] Registering OPENMOXIE_CHAT/default
+2025-08-11 20:12:12,864 DEBUG [moxie_remote_chat] Registering OPENMOXIE_CHAT/short
+2025-08-11 20:12:12,864 DEBUG [moxie_remote_chat] Registering OPENCONVO/reading
+2025-08-11 20:12:12,864 DEBUG [moxie_remote_chat] Registering OPENCONVO/storytelling
+2025-08-11 20:12:12,864 DEBUG [moxie_remote_chat] Registering OPENCONVO/story
+2025-08-11 20:12:12,865 DEBUG [moxie_remote_chat] Registering SIMPLELINE/default
+2025-08-11 20:12:12,865 DEBUG [moxie_remote_chat] Registering WAKEUP_LAUNCHER/ftue
+2025-08-11 20:12:12,865 DEBUG [moxie_remote_chat] Registering WAKEUP_LAUNCHER/more_10
+2025-08-11 20:12:12,865 DEBUG [moxie_remote_chat] Registering WAKEUP_LAUNCHER/less_10
+2025-08-11 20:12:12,865 DEBUG [moxie_remote_chat] Registering WAKEUP_LAUNCHER/first_time_today
+2025-08-11 20:12:12,866 DEBUG [moxie_remote_chat] Registering WAKEUP_LAUNCHER/scheduled
+2025-08-11 20:12:12,868 INFO [basehttp] "GET /hive/reload_database HTTP/1.1" 302 0
+2025-08-11 20:12:12,878 INFO [basehttp] "GET /hive/dashboard/Updated%20from%20database./ HTTP/1.1" 200 4067
+2025-08-11 20:12:55,612 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:13:55,612 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:13:58,951 INFO [basehttp] "GET /hive/dashboard/Updated%20from%20database./ HTTP/1.1" 200 4067
+2025-08-11 20:14:01,700 INFO [basehttp] "GET /hive/dashboard/Updated%20from%20database./ HTTP/1.1" 200 4067
+2025-08-11 20:14:31,452 INFO [basehttp] "GET /hive/dashboard HTTP/1.1" 200 4000
+2025-08-11 20:14:31,491 INFO [basehttp] "GET /static/hive/style.css HTTP/1.1" 304 0
+2025-08-11 20:14:31,492 INFO [basehttp] "GET /static/js/jquery.js HTTP/1.1" 304 0
+2025-08-11 20:14:31,492 INFO [basehttp] "GET /static/hive/openmoxie_logo.svg HTTP/1.1" 304 0
+2025-08-11 20:14:31,553 INFO [basehttp] "GET /static/hive/favicon.svg HTTP/1.1" 304 0
+2025-08-11 20:14:55,613 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:15:55,613 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:16:55,614 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:17:55,615 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:18:55,616 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:19:55,616 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:20:11,182 INFO [basehttp] "GET /hive/dashboard HTTP/1.1" 200 4000
+2025-08-11 20:20:13,062 INFO [basehttp] "GET /hive/dashboard HTTP/1.1" 200 4000
+2025-08-11 20:20:36,512 INFO [basehttp] "GET /hive/setup HTTP/1.1" 200 7058
+2025-08-11 20:20:55,617 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:21:55,618 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:22:55,618 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:23:55,619 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:24:55,620 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:25:55,620 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:26:55,621 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:27:55,622 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:28:55,622 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:29:55,623 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:30:55,624 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:31:55,624 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:33:02,064 INFO [robot_data] Using 'default' schedule from database as schedule fallback
+2025-08-11 20:33:02,064 INFO [moxie_server] Creating client with id: d_supervisor
+2025-08-11 20:33:02,123 DEBUG [moxie_remote_chat] Registering OPENMOXIE_CHAT/default
+2025-08-11 20:33:02,123 DEBUG [moxie_remote_chat] Registering OPENMOXIE_CHAT/short
+2025-08-11 20:33:02,123 DEBUG [moxie_remote_chat] Registering OPENCONVO/reading
+2025-08-11 20:33:02,123 DEBUG [moxie_remote_chat] Registering OPENCONVO/storytelling
+2025-08-11 20:33:02,123 DEBUG [moxie_remote_chat] Registering OPENCONVO/story
+2025-08-11 20:33:02,123 DEBUG [moxie_remote_chat] Registering SIMPLELINE/default
+2025-08-11 20:33:02,123 DEBUG [moxie_remote_chat] Registering WAKEUP_LAUNCHER/ftue
+2025-08-11 20:33:02,123 DEBUG [moxie_remote_chat] Registering WAKEUP_LAUNCHER/more_10
+2025-08-11 20:33:02,124 DEBUG [moxie_remote_chat] Registering WAKEUP_LAUNCHER/less_10
+2025-08-11 20:33:02,124 DEBUG [moxie_remote_chat] Registering WAKEUP_LAUNCHER/first_time_today
+2025-08-11 20:33:02,124 DEBUG [moxie_remote_chat] Registering WAKEUP_LAUNCHER/scheduled
+2025-08-11 20:33:02,126 INFO [moxie_server] connecting to: localhost
+2025-08-11 20:33:02,173 INFO [moxie_server] Connected with result code 0
+2025-08-11 20:33:08,766 INFO [basehttp] "GET /hive/dashboard HTTP/1.1" 200 4004
+2025-08-11 20:33:08,781 INFO [basehttp] "GET /static/js/jquery.js HTTP/1.1" 200 86351
+2025-08-11 20:33:08,787 INFO [basehttp] "GET /static/hive/style.css HTTP/1.1" 304 0
+2025-08-11 20:33:08,787 INFO [basehttp] "GET /static/hive/openmoxie_logo.svg HTTP/1.1" 304 0
+2025-08-11 20:33:08,845 INFO [basehttp] "GET /static/hive/favicon.svg HTTP/1.1" 304 0
+2025-08-11 20:33:40,488 INFO [basehttp] "GET /admin/ HTTP/1.1" 302 0
+2025-08-11 20:33:40,526 INFO [basehttp] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4176
+2025-08-11 20:33:40,584 INFO [basehttp] "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+2025-08-11 20:33:40,597 INFO [basehttp] "GET /static/admin/css/login.css HTTP/1.1" 200 951
+2025-08-11 20:33:40,599 INFO [basehttp] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+2025-08-11 20:33:40,599 INFO [basehttp] "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+2025-08-11 20:33:40,599 INFO [basehttp] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+2025-08-11 20:33:40,600 INFO [basehttp] "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+2025-08-11 20:33:40,606 INFO [basehttp] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+2025-08-11 20:33:48,313 INFO [basehttp] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2025-08-11 20:33:48,337 INFO [basehttp] "GET /admin/ HTTP/1.1" 200 11055
+2025-08-11 20:33:48,400 INFO [basehttp] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+2025-08-11 20:33:48,448 INFO [basehttp] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2025-08-11 20:33:48,448 INFO [basehttp] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2025-08-11 20:33:54,444 INFO [basehttp] "GET /admin/hive/singlepromptchat/ HTTP/1.1" 200 14294
+2025-08-11 20:33:54,467 INFO [basehttp] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+2025-08-11 20:33:54,478 INFO [basehttp] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+2025-08-11 20:33:54,480 INFO [basehttp] "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+2025-08-11 20:33:54,482 INFO [basehttp] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+2025-08-11 20:33:54,492 INFO [basehttp] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2025-08-11 20:33:54,493 INFO [basehttp] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+2025-08-11 20:33:54,496 INFO [basehttp] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+2025-08-11 20:33:54,496 INFO [basehttp] "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+2025-08-11 20:33:54,499 INFO [basehttp] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+2025-08-11 20:33:54,500 INFO [basehttp] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+2025-08-11 20:33:54,542 INFO [basehttp] "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+2025-08-11 20:33:54,565 INFO [basehttp] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+2025-08-11 20:34:02,140 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:35:02,141 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:36:02,142 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 1}
+2025-08-11 20:36:37,533 INFO [moxie_server] Moxie CONNECTED d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23 from 192.168.4.227:37442
+2025-08-11 20:36:37,533 INFO [robot_data] Device d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23 is LOADING.
+2025-08-11 20:36:37,540 INFO [robot_data] Created new model for this device d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23
+2025-08-11 20:36:37,540 INFO [robot_data] Setting schedule to default
+2025-08-11 20:36:37,753 DEBUG [moxie_server] Rx STATE topic for device d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23
+2025-08-11 20:36:38,384 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[libc    ] - /buildbot/src/android/ndk-release-r18/external/libcxx/../../external/libcxxabi/src/abort_message.cpp:73: abort_message: assertion "terminating" failed
+2025-08-11 20:36:38,385 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[libc    ] - Fatal signal 6 (SIGABRT), code -6 (SI_TKILL) in tid 1410 (Main-bo-logger), pid 1253 (_unity:bologger)
+2025-08-11 20:36:38,386 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[libc    ] - /buildbot/src/android/ndk-release-r18/external/libcxx/../../external/libcxxabi/src/abort_message.cpp:73: abort_message: assertion "terminating with uncaught exception of type std::__ndk1::regex_error: Unknown error type" failed
+2025-08-11 20:36:38,387 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] - *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+2025-08-11 20:36:38,387 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] - Build fingerprint: 'rockchip/rk3288/rk3288:9/PQ2A.190305.002/cloud12282012:user/release-keys'
+2025-08-11 20:36:38,388 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] - Revision: '0'
+2025-08-11 20:36:38,389 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] - ABI: 'arm'
+2025-08-11 20:36:38,389 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] - pid: 1253, tid: 1410, name: Main-bo-logger  >>> com.embodied.bo_unity:bologger <<<
+2025-08-11 20:36:38,389 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] - signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+2025-08-11 20:36:38,390 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] - Abort message: '/buildbot/src/android/ndk-release-r18/external/libcxx/../../external/libcxxabi/src/abort_message.cpp:73: abort_message: assertion "terminating" failed'
+2025-08-11 20:36:38,390 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     r0  00000000  r1  00000582  r2  00000006  r3  00000008
+2025-08-11 20:36:38,390 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     r4  000004e5  r5  00000582  r6  8bb3672c  r7  0000010c
+2025-08-11 20:36:38,390 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     r8  a76f9d8c  r9  a76fa450  r10 aa3b81c0  r11 00000026
+2025-08-11 20:36:38,390 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     ip  00000041  sp  8bb36718  lr  a767601d  pc  a766dd42
+2025-08-11 20:36:38,391 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] - None
+2025-08-11 20:36:38,391 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] - backtrace:
+2025-08-11 20:36:38,391 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     #00 pc 0001cd42  /system/lib/libc.so (abort+58)
+2025-08-11 20:36:38,391 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     #01 pc 0001cfab  /system/lib/libc.so (__assert2+22)
+2025-08-11 20:36:38,391 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     #02 pc 007803fd  /system/priv-app/bo-android/bo-android.apk (offset 0x1ef5f000) (abort_message+80)
+2025-08-11 20:36:38,391 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     #03 pc 00780483  /system/priv-app/bo-android/bo-android.apk (offset 0x1ef5f000) (demangling_terminate_handler()+22)
+2025-08-11 20:36:38,391 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     #04 pc 0077e8bd  /system/priv-app/bo-android/bo-android.apk (offset 0x1ef5f000) (std::__terminate(void (*)())+4)
+2025-08-11 20:36:38,391 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     #05 pc 0077e841  /system/priv-app/bo-android/bo-android.apk (offset 0x1ef5f000) (std::terminate()+28)
+2025-08-11 20:36:38,392 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     #06 pc 0077d059  /system/priv-app/bo-android/bo-android.apk (offset 0x1ef5f000) (std::__ndk1::thread::~thread()+10)
+2025-08-11 20:36:38,392 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     #07 pc 0043409b  /system/priv-app/bo-android/bo-android.apk (offset 0x1ef5f000) (ZMQEventBroadcaster::~ZMQEventBroadcaster()+446)
+2025-08-11 20:36:38,392 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     #08 pc 004340f1  /system/priv-app/bo-android/bo-android.apk (offset 0x1ef5f000) (ZMQEventBroadcaster::~ZMQEventBroadcaster()+4)
+2025-08-11 20:36:38,392 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     #09 pc 0043391d  /system/priv-app/bo-android/bo-android.apk (offset 0x1ef5f000) (std::__ndk1::unique_ptr<embodied::core::EventBroadcaster, std::__ndk1::default_delete<embodied::core::EventBroadcaster>>::~unique_ptr()+20)
+2025-08-11 20:36:38,392 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     #10 pc 0006661f  /system/lib/libc.so (__cxa_finalize+134)
+2025-08-11 20:36:38,392 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     #11 pc 0001825b  /system/lib/libc.so (exit+10)
+2025-08-11 20:36:38,392 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     #12 pc 0046c679  /system/priv-app/bo-android/bo-android.apk (offset 0x1ef5f000) (embodied::logging::cloud::RightPoint::on_QRCommand(embodied::ProtoEventArgs<embodied::unity::QRCommand> const&)+1844)
+2025-08-11 20:36:38,393 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     #13 pc 00487b07  /system/priv-app/bo-android/bo-android.apk (offset 0x1ef5f000) (_ZNSt6__ndk128__invoke_void_return_wrapperIvE6__callIJRZN8embodied4core5EventINS3_14ProtoEventArgsINS3_5unity9QRCommandEEEvE11AddListenerIS9_vEEyNS_8functionIFvRKT_EEEEUlNS_10shared_ptrINS4_9EventArgsEEEE_SK_EEEvDpOT_+30)
+2025-08-11 20:36:38,393 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     #14 pc 004337c9  /system/priv-app/bo-android/bo-android.apk (offset 0x1ef5f000) (embodied::core::EventBase::NonThreadedWorker::Fire(std::__ndk1::shared_ptr<embodied::core::EventArgs>)+44)
+2025-08-11 20:36:38,393 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     #15 pc 00433765  /system/priv-app/bo-android/bo-android.apk (offset 0x1ef5f000) (embodied::core::EventBase::Fire(std::__ndk1::shared_ptr<embodied::core::EventArgs>)+68)
+2025-08-11 20:36:38,393 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     #16 pc 0048080d  /system/priv-app/bo-android/bo-android.apk (offset 0x1ef5f000) (_ZN8embodied4core5EventINS_14ProtoEventArgsINS_5unity9QRCommandEEEvE4FireIJRS5_EEEvDpOT_+64)
+2025-08-11 20:36:38,393 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     #17 pc 00480611  /system/priv-app/bo-android/bo-android.apk (offset 0x1ef5f000) (embodied::ProtoEventArgs<embodied::unity::QRCommand>::SubscriberCallback(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>> const&)+88)
+2025-08-11 20:36:38,394 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     #18 pc 0043491b  /system/priv-app/bo-android/bo-android.apk (offset 0x1ef5f000) (ZMQEventBroadcaster::SubscriberThread()+438)
+2025-08-11 20:36:38,394 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     #19 pc 00434e55  /system/priv-app/bo-android/bo-android.apk (offset 0x1ef5f000) (_ZNSt6__ndk114__thread_proxyINS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEM19ZMQEventBroadcasterFvvEPS7_EEEEEPvSC_+40)
+2025-08-11 20:36:38,394 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     #20 pc 000642f3  /system/lib/libc.so (__pthread_start(void*)+22)
+2025-08-11 20:36:38,394 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[DEBUG   ] -     #21 pc 0001df59  /system/lib/libc.so (__start_thread+32)
+2025-08-11 20:36:38,394 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[ServiceMetrics] - Restarting dead service: ComponentInfo{com.embodied.bo_unity/me.embodied.services.BoLogger} (system restart)
+2025-08-11 20:36:38,394 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[ServiceMetrics] - Service had to be restarted: me.embodied.services.BoLogger
+2025-08-11 20:36:38,549 DEBUG [robot_data] Providing config {'pairing_status': 'paired', 'audio_volume': '0.6', 'screen_brightness': '1.0', 'audio_wake_set': 'off', 'timezone_id': 'America/Los_Angeles', 'child_pii': {'nickname': 'Pat', 'input_speed': 0.0}, 'settings': {'props': {'touch_wake': '1', 'wake_alarms': '1', 'wake_button': '1', 'doa_range': '80', 'target_all': '1', 'gcp_upload_disable': '1', 'local_stt': 'on', 'max_enroll': '2', 'audio_wake': '1', 'cloud_schedule_reset_threshold': '5', 'debug_whiteboard': '0', 'brain_entrances_available': '1', 'mqtt_files': '0', 'file_sync_wait': '0', 'default_loglevel': 'warning'}}} to d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23
+2025-08-11 20:36:38,550 DEBUG [moxie_server] Subscribed to ZMQ STT
+2025-08-11 20:36:54,563 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[Unity   ] - [FIRMWARE_VERSION] [LizardInfoEvent] Detected lizard firmware version: Lizard Firmware: v9.11, for Hardware: FEP2, Origin: FLASH
+2025-08-11 20:36:57,532 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[Unity   ] - [LOCAL_ASSETBUNDLES] [RobotAssetBundleManager] Available local asset bundles (65): adult-moxie,animal-breathing,anxiety,attachments,bed-time,behaviours,being-different,birthday,board-game,bullying,celebration,characters,circuit-animation,confertti-attachment,dance-music,drawing,dynamic-assetbundle-test,episodic-006-personal-space,exercise,feeling-mad,ftue,general,global-narrative,icon-present,icons-12-15-20,imaginative-play,learning-about-family,meditation,microexp,missions,module-stingers,module_icons,month-two,motorcalibration,moxie-life,orchestra,reading-000-general,reading-click-clack,reading-oh-the-places,reading-waiting-is-not-easy,reading-wild-things,rock-paper-scissors,scavenger-hunt,sign-off,sounds-12-16-20,sounds12-14,space,standalone-001-sea-turtles,standalone-003-floyd,startup,startup-audio,startup-icons,startup-shaders,startup-sysicons,startup-textures,stories,storytime,talking,testassetbundlename1,testassetbundlename2,truthfulness,underwater-adventure,whimsy,xotd,yes-chief
+2025-08-11 20:36:57,538 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[Unity   ] - [REMOTE_ASSETBUNDLES] [RobotAssetBundleManager] Available remote asset bundles (0): 
+2025-08-11 20:37:02,142 INFO [moxie_server] Client Metrics: {'total': 2, 'inactive': 0, 'disconnected': 0, 'active': 2, 'connected': 2, 'expired': 0, 'maximum': 2}
+2025-08-11 20:37:11,566 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[Unity   ] - [ASSETBUNDLE_GENERAL] [EBLocalAssetBundleRuntimeState] Duplicated asset filename bht_stop_talking.asset in bundle behaviours
+2025-08-11 20:37:12,176 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[Unity   ] - [ASSETBUNDLE_GENERAL] [RobotAssetBundleManager] [RecordAssetsInBundle] The file 'bht_stop_talking.asset' in the asset bundle 'behaviours' has been previously found in found in the asset bundles 'behaviours'
+2025-08-11 20:38:02,143 INFO [moxie_server] Client Metrics: {'total': 2, 'inactive': 0, 'disconnected': 0, 'active': 2, 'connected': 2, 'expired': 0, 'maximum': 2}
+2025-08-11 20:39:02,144 INFO [moxie_server] Client Metrics: {'total': 2, 'inactive': 0, 'disconnected': 0, 'active': 2, 'connected': 2, 'expired': 0, 'maximum': 2}
+2025-08-11 20:39:30,318 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[Unity   ] - [ASSETBUNDLE_GENERAL] [RobotAssetBundleManager] [RecordAssetsInBundle] The file 'brain_twister_icon.png' in the asset bundle 'startup-shaders' has been previously found in found in the asset bundles 'module_icons'
+2025-08-11 20:39:30,325 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[Unity   ] - [ASSETBUNDLE_GENERAL] [RobotAssetBundleManager] [RecordAssetsInBundle] The file 'mindfulness_icon.png' in the asset bundle 'startup-shaders' has been previously found in found in the asset bundles 'module_icons'
+2025-08-11 20:39:30,326 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[Unity   ] - [ASSETBUNDLE_GENERAL] [RobotAssetBundleManager] [RecordAssetsInBundle] The file 'moxie_thinking_icon.png' in the asset bundle 'startup-shaders' has been previously found in found in the asset bundles 'module_icons'
+2025-08-11 20:39:46,907 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[Unity   ] - [ASSETBUNDLE_GENERAL] [RobotAssetBundleManager] [RecordAssetsInBundle] The file 'sfxwhi_sparkleexist.ogg' in the asset bundle 'whimsy' has been previously found in found in the asset bundles 'sounds-12-16-20'
+2025-08-11 20:39:52,437 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[Unity   ] - [ROBOTACTOR_ERROR] [RobotActorComponent] AnimatorController does not contain animation state named 'I_001_01_Idles_Sleep'.
+2025-08-11 20:39:52,486 INFO [basehttp] "GET / HTTP/1.1" 302 0
+2025-08-11 20:39:52,498 INFO [basehttp] "GET /hive/ HTTP/1.1" 302 0
+2025-08-11 20:39:52,548 INFO [basehttp] "GET /hive/dashboard HTTP/1.1" 200 4684
+2025-08-11 20:39:52,616 INFO [basehttp] "GET /static/js/jquery.js HTTP/1.1" 304 0
+2025-08-11 20:39:55,918 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[Unity   ] - [ROBOT_VERSION_INFO] [Embodied.Robot.Logging.LoggingManager] App Version: 24.10.803
+2025-08-11 20:39:55,919 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[Unity   ] - [ROBOT_VERSION_INFO] [Embodied.Robot.Logging.LoggingManager] Unity Version: 2020.3.48f1
+2025-08-11 20:39:55,920 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[Unity   ] - [ROBOT_VERSION_INFO] [Embodied.Robot.Logging.LoggingManager] Version Information: Branch "refs/heads/master" at commit "a90cfdee72bc0b2e73bc4ddfac8f7877c5be9990" last built at "12/28/2024 18:32:27" (UNIX: 1735410747974)
+2025-08-11 20:39:55,921 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[BO-LIZZERFACE] - [LIZZERFACE_VERSION] [BO-LIZZERFACE] COMMIT: b384982386bd7d04360ede01e06fda3ea8bc97a4, COMMIT_DATE: Tue May 11 18:56:59 2021 -0700
+2025-08-11 20:39:55,921 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[Unity   ] - [LIZZERFACE_VERSION] [Lizzerface] Detected Lizard Board Revision REVISION_F2_MoxieFEP2, reply from Lizard was 242.
+2025-08-11 20:40:02,144 INFO [moxie_server] Client Metrics: {'total': 2, 'inactive': 0, 'disconnected': 0, 'active': 2, 'connected': 2, 'expired': 0, 'maximum': 2}
+2025-08-11 20:40:42,613 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[Unity   ] - [CHARGING_EVENT] [LizardInfoEvent] New battery level: 100% (BATTERY_FULL), and charging.
+2025-08-11 20:40:42,620 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[Unity   ] - [CHARGING_EVENT] [LizardInfoEvent] Charger plugged in.  Current battery level is 100%
+2025-08-11 20:40:44,468 DEBUG [moxie_server] Rx Schedule request.
+2025-08-11 20:40:44,468 INFO [scheduler] Using generative schedule
+2025-08-11 20:40:44,475 DEBUG [robot_data] Providing schedule {'provided_schedule': [{'module_id': 'WELCOME'}, {'module_id': 'ENROLLCONVO'}, {'module_id': 'EVENTSANDHOLIDAYS'}, {'module_id': 'TNT'}, {'module_id': 'SYSTEMSCHECK'}, {'module_id': 'OPENMOXIE_CHAT', 'content_id': 'short'}, {'module_id': 'DM'}, {'module_id': 'FF', 'category': 'FUN_TIDBIT'}, {'module_id': 'SCAVENGERHUNT', 'category': 'PLAYFUL_GAME'}, {'module_id': 'OPENMOXIE_CHAT', 'content_id': 'short'}, {'module_id': 'AB', 'category': 'REGULATION'}, {'module_id': 'JUKEBOX', 'category': 'LISTENING'}, {'module_id': 'OPENMOXIE_CHAT', 'content_id': 'short'}, {'module_id': 'DRAW', 'category': 'CREATIVITY'}, {'module_id': 'ANIMALEXERCISE', 'category': 'MOVEMENT'}], 'chat_request': {'module_id': 'OPENMOXIE_CHAT', 'content_id': 'default'}} to d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23
+2025-08-11 20:40:44,665 DEBUG [moxie_server] Rx MBH request.
+2025-08-11 20:40:44,668 INFO [moxie_server] Providing 0 MBH records to d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23
+2025-08-11 20:40:44,674 DEBUG [moxie_server] Tx modules to: remote_chat: {'modules': [{'info': {'id': 'OPENMOXIE_CHAT'}, 'rules': 'RANDOM', 'source': 'REMOTE_CHAT', 'content_infos': [{'info': {'id': 'default'}}, {'info': {'id': 'short'}}]}, {'info': {'id': 'OPENCONVO'}, 'rules': 'RANDOM', 'source': 'REMOTE_CHAT', 'content_infos': [{'info': {'id': 'reading'}}, {'info': {'id': 'storytelling'}}, {'info': {'id': 'story'}}]}, {'info': {'id': 'SIMPLELINE'}, 'rules': 'RANDOM', 'source': 'REMOTE_CHAT', 'content_infos': [{'info': {'id': 'default'}}]}, {'info': {'id': 'WAKEUP_LAUNCHER'}, 'rules': 'RANDOM', 'source': 'REMOTE_CHAT', 'content_infos': [{'info': {'id': 'ftue'}}, {'info': {'id': 'more_10'}}, {'info': {'id': 'less_10'}}, {'info': {'id': 'first_time_today'}}, {'info': {'id': 'scheduled'}}]}], 'version': 'openmoxie_v1'}
+2025-08-11 20:41:02,145 INFO [moxie_server] Client Metrics: {'total': 2, 'inactive': 0, 'disconnected': 0, 'active': 2, 'connected': 2, 'expired': 0, 'maximum': 2}
+2025-08-11 20:41:04,328 DEBUG [moxie_server] Rx STATE topic for device d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23
+2025-08-11 20:41:38,733 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[Unity   ] - [POWER_STATE_CHANGE] [LizardInfoEvent] Setting robot power state to: POWER_STATE_STANDBY
+2025-08-11 20:41:38,741 DEBUG [moxie_server] Rx STATE topic for device d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23
+2025-08-11 20:42:00,437 INFO [robot_data] Releasing device data for d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23
+2025-08-11 20:42:00,445 INFO [moxie_server] Moxie DISCONNECTED d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23
+2025-08-11 20:42:02,145 INFO [moxie_server] Client Metrics: {'total': 2, 'inactive': 0, 'disconnected': 0, 'active': 2, 'connected': 2, 'expired': 0, 'maximum': 2}
+2025-08-11 20:43:02,146 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 2}
+2025-08-11 20:44:02,146 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 2}
+2025-08-11 20:44:15,299 INFO [moxie_server] Moxie CONNECTED d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23 from 192.168.4.227:37624
+2025-08-11 20:44:15,300 INFO [robot_data] Device d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23 is LOADING.
+2025-08-11 20:44:15,303 INFO [robot_data] Existing model for this device d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23
+2025-08-11 20:44:16,311 DEBUG [robot_data] Providing config {'pairing_status': 'paired', 'audio_volume': '0.6', 'screen_brightness': '1.0', 'audio_wake_set': 'off', 'timezone_id': 'America/Los_Angeles', 'child_pii': {'nickname': 'Pat', 'input_speed': 0.0}, 'settings': {'props': {'touch_wake': '1', 'wake_alarms': '1', 'wake_button': '1', 'doa_range': '80', 'target_all': '1', 'gcp_upload_disable': '1', 'local_stt': 'on', 'max_enroll': '2', 'audio_wake': '1', 'cloud_schedule_reset_threshold': '5', 'debug_whiteboard': '0', 'brain_entrances_available': '1', 'mqtt_files': '0', 'file_sync_wait': '0', 'default_loglevel': 'warning'}}} to d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23
+2025-08-11 20:44:16,311 DEBUG [moxie_server] Subscribed to ZMQ STT
+2025-08-11 20:44:16,707 DEBUG [moxie_server] Rx STATE topic for device d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23
+2025-08-11 20:44:16,717 DEBUG [moxie_server] Rx MBH request.
+2025-08-11 20:44:16,721 DEBUG [moxie_server] Rx Schedule request.
+2025-08-11 20:44:16,721 INFO [moxie_server] Providing 0 MBH records to d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23
+2025-08-11 20:44:16,722 INFO [scheduler] Using generative schedule
+2025-08-11 20:44:16,725 DEBUG [moxie_server] Tx modules to: remote_chat: {'modules': [{'info': {'id': 'OPENMOXIE_CHAT'}, 'rules': 'RANDOM', 'source': 'REMOTE_CHAT', 'content_infos': [{'info': {'id': 'default'}}, {'info': {'id': 'short'}}]}, {'info': {'id': 'OPENCONVO'}, 'rules': 'RANDOM', 'source': 'REMOTE_CHAT', 'content_infos': [{'info': {'id': 'reading'}}, {'info': {'id': 'storytelling'}}, {'info': {'id': 'story'}}]}, {'info': {'id': 'SIMPLELINE'}, 'rules': 'RANDOM', 'source': 'REMOTE_CHAT', 'content_infos': [{'info': {'id': 'default'}}]}, {'info': {'id': 'WAKEUP_LAUNCHER'}, 'rules': 'RANDOM', 'source': 'REMOTE_CHAT', 'content_infos': [{'info': {'id': 'ftue'}}, {'info': {'id': 'more_10'}}, {'info': {'id': 'less_10'}}, {'info': {'id': 'first_time_today'}}, {'info': {'id': 'scheduled'}}]}], 'version': 'openmoxie_v1'}
+2025-08-11 20:44:16,728 DEBUG [robot_data] Providing schedule {'provided_schedule': [{'module_id': 'WELCOME'}, {'module_id': 'ENROLLCONVO'}, {'module_id': 'EVENTSANDHOLIDAYS'}, {'module_id': 'TNT'}, {'module_id': 'SYSTEMSCHECK'}, {'module_id': 'OPENMOXIE_CHAT', 'content_id': 'short'}, {'module_id': 'DM'}, {'module_id': 'MENTORSAYS', 'category': 'PLAYFUL_GAME'}, {'module_id': 'RDL', 'category': 'FUN_TIDBIT'}, {'module_id': 'OPENMOXIE_CHAT', 'content_id': 'short'}, {'module_id': 'PASSWORDGAME', 'category': 'PUZZLE_GAME'}, {'module_id': 'STORY', 'category': 'LISTENING'}, {'module_id': 'OPENMOXIE_CHAT', 'content_id': 'short'}, {'module_id': 'GUIDEDVIS', 'category': 'REGULATION'}, {'module_id': 'ANIMALEXERCISE', 'category': 'MOVEMENT'}], 'chat_request': {'module_id': 'OPENMOXIE_CHAT', 'content_id': 'default'}} to d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23
+2025-08-11 20:44:17,961 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[Unity   ] - [POWER_STATE_CHANGE] [LizardInfoEvent] Setting robot power state to: POWER_STATE_SLEEPING
+2025-08-11 20:44:17,966 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[Unity   ] - [WAKEUP_ANDROID_EVENT] [LizardErrorEvent] eventID: TOUCH_WAKEUP
+2025-08-11 20:44:22,265 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 1 TotalBytes: 0
+2025-08-11 20:44:22,289 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 126720
+2025-08-11 20:44:22,303 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 3 TotalBytes: 253440
+2025-08-11 20:44:22,303 INFO [zmq_stt_handler] Session reached END OF SPEECH
+2025-08-11 20:44:22,303 INFO [zmq_stt_handler] Processing session_id cf7a15a7-e334-4e9c-a380-32fe654de16d with 253440 bytes
+2025-08-11 20:44:25,142 INFO [zmq_stt_handler] STT-FINAL: We got mochi. We got mochi.
+2025-08-11 20:44:25,341 DEBUG [moxie_server] Rx STATE topic for device d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23
+2025-08-11 20:44:25,544 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 1 TotalBytes: 0
+2025-08-11 20:44:25,544 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 3840
+2025-08-11 20:44:25,545 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 7680
+2025-08-11 20:44:25,545 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 11520
+2025-08-11 20:44:25,547 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 15360
+2025-08-11 20:44:25,548 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[EngagementModule] - Reengaged with user after 219988 ms with only visible speech.
+2025-08-11 20:44:25,579 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 19200
+2025-08-11 20:44:25,825 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 23040
+2025-08-11 20:44:25,844 INFO [moxie_remote_chat] -- USER: moxie wake up
+2025-08-11 20:44:25,844 INFO [moxie_remote_chat] -- MOXIE: Wow. It feels good to be out of that box. that was such a long journey! I'm still a little tired. Ooh, a human! Hello! [WELCOME/None]
+2025-08-11 20:44:25,847 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 26880
+2025-08-11 20:44:25,948 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 30720
+2025-08-11 20:44:26,159 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 34560
+2025-08-11 20:44:26,214 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 38400
+2025-08-11 20:44:26,217 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 3 TotalBytes: 38400
+2025-08-11 20:44:26,218 INFO [zmq_stt_handler] Session reached END OF SPEECH
+2025-08-11 20:44:26,218 INFO [zmq_stt_handler] Processing session_id 3747e198-16d4-45cf-a034-e5c4a931a5a3 with 38400 bytes
+2025-08-11 20:44:26,329 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[FacePipeline] - Face pipeline latency can't support 5fps
+2025-08-11 20:44:26,669 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[Unity   ] - [POWER_STATE_CHANGE] [LizardInfoEvent] Setting robot power state to: POWER_STATE_ACTIVE
+2025-08-11 20:44:27,386 DEBUG [moxie_server] Rx STATE topic for device d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23
+2025-08-11 20:44:28,922 INFO [zmq_stt_handler] STT-FINAL: 이건 또 뭐예요?
+2025-08-11 20:44:28,923 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[Unity   ] - [MOTOR_FAIL_BOOT] [LizardErrorEvent] Fixed 
+2025-08-11 20:44:34,960 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 1 TotalBytes: 0
+2025-08-11 20:44:34,961 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 3840
+2025-08-11 20:44:34,961 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 7680
+2025-08-11 20:44:34,962 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 11520
+2025-08-11 20:44:35,165 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 15360
+2025-08-11 20:44:35,165 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 19200
+2025-08-11 20:44:35,259 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 23040
+2025-08-11 20:44:35,291 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 26880
+2025-08-11 20:44:35,472 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 30720
+2025-08-11 20:44:35,677 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 34560
+2025-08-11 20:44:35,881 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 38400
+2025-08-11 20:44:35,882 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 42240
+2025-08-11 20:44:35,972 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 46080
+2025-08-11 20:44:35,973 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 3 TotalBytes: 46080
+2025-08-11 20:44:35,973 INFO [zmq_stt_handler] Session reached END OF SPEECH
+2025-08-11 20:44:35,973 INFO [zmq_stt_handler] Processing session_id 795c5938-45fc-4b91-821e-4d4c36b8386e with 46080 bytes
+2025-08-11 20:44:37,626 INFO [zmq_stt_handler] STT-FINAL: Watch your own arm off.
+2025-08-11 20:45:02,147 INFO [moxie_server] Client Metrics: {'total': 2, 'inactive': 0, 'disconnected': 0, 'active': 2, 'connected': 2, 'expired': 0, 'maximum': 2}
+2025-08-11 20:45:04,248 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 1 TotalBytes: 0
+2025-08-11 20:45:04,248 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 3840
+2025-08-11 20:45:04,250 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 7680
+2025-08-11 20:45:04,250 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 11520
+2025-08-11 20:45:04,255 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 15360
+2025-08-11 20:45:04,255 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 19200
+2025-08-11 20:45:04,334 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 23040
+2025-08-11 20:45:04,553 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 26880
+2025-08-11 20:45:04,572 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 30720
+2025-08-11 20:45:04,758 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 34560
+2025-08-11 20:45:04,812 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 38400
+2025-08-11 20:45:04,963 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 42240
+2025-08-11 20:45:04,965 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 3 TotalBytes: 42240
+2025-08-11 20:45:04,966 INFO [zmq_stt_handler] Session reached END OF SPEECH
+2025-08-11 20:45:04,966 INFO [zmq_stt_handler] Processing session_id c666342b-e6c3-47d4-af11-04c621258e25 with 42240 bytes
+2025-08-11 20:45:06,298 INFO [zmq_stt_handler] STT-FINAL: Hello?
+2025-08-11 20:45:06,384 DEBUG [moxie_remote_chat] Ignoring request for other module: WELCOME/ SessionReset:False
+2025-08-11 20:45:06,807 INFO [moxie_remote_chat] -- USER: Hello?
+2025-08-11 20:45:06,808 INFO [moxie_remote_chat] -- MOXIE: It's nice to meet you. I'm Moxie. I'm a robot from the Global Robotics Laboratory. We call it the G. R. L. for short. I traveled thousands of miles to meet you. It's nice to finally be here! Oh! where is here, exactly? [WELCOME/None]
+2025-08-11 20:45:27,391 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 1 TotalBytes: 0
+2025-08-11 20:45:27,392 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 3840
+2025-08-11 20:45:27,392 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 7680
+2025-08-11 20:45:27,393 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 11520
+2025-08-11 20:45:27,399 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 15360
+2025-08-11 20:45:27,399 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 19200
+2025-08-11 20:45:27,498 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 23040
+2025-08-11 20:45:27,620 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 26880
+2025-08-11 20:45:27,803 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 30720
+2025-08-11 20:45:27,872 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 34560
+2025-08-11 20:45:28,004 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 38400
+2025-08-11 20:45:28,095 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 42240
+2025-08-11 20:45:28,311 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 46080
+2025-08-11 20:45:28,339 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 49920
+2025-08-11 20:45:28,516 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 53760
+2025-08-11 20:45:28,579 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 57600
+2025-08-11 20:45:28,721 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 61440
+2025-08-11 20:45:28,812 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 2 TotalBytes: 65280
+2025-08-11 20:45:28,815 DEBUG [zmq_stt_handler] ZMQ Speech VAD: 3 TotalBytes: 65280
+2025-08-11 20:45:28,815 INFO [zmq_stt_handler] Session reached END OF SPEECH
+2025-08-11 20:45:28,815 INFO [zmq_stt_handler] Processing session_id 7ca63a00-76a7-489b-a086-011173da75a5 with 65280 bytes
+2025-08-11 20:45:29,936 INFO [zmq_stt_handler] STT-FINAL: Moxie go to sleep
+2025-08-11 20:45:30,244 DEBUG [moxie_server] Rx STATE topic for device d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23
+2025-08-11 20:45:37,841 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[Unity   ] - [POWER_STATE_CHANGE] [LizardInfoEvent] Setting robot power state to: POWER_STATE_STANDBY
+2025-08-11 20:45:37,848 DEBUG [moxie_server] Rx STATE topic for device d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23
+2025-08-11 20:46:02,148 INFO [moxie_server] Client Metrics: {'total': 2, 'inactive': 0, 'disconnected': 0, 'active': 2, 'connected': 2, 'expired': 0, 'maximum': 2}
+2025-08-11 20:46:09,988 DEBUG [moxie_server] d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23[BOBackup] - Failed to post backup to cloud.
+2025-08-11 20:46:31,288 INFO [robot_data] Releasing device data for d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23
+2025-08-11 20:46:31,300 INFO [moxie_server] Moxie DISCONNECTED d_bc22aa6c-e489-44f7-82f7-9c48c66e8a23
+2025-08-11 20:47:02,148 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 2}
+2025-08-11 20:48:02,149 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 2}
+2025-08-11 20:49:02,150 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 2}
+2025-08-11 20:50:02,150 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 2}
+2025-08-11 20:51:02,151 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 2}
+2025-08-11 20:52:02,152 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 2}
+2025-08-11 20:53:02,152 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 2}
+2025-08-11 20:54:02,153 INFO [moxie_server] Client Metrics: {'total': 1, 'inactive': 0, 'disconnected': 0, 'active': 1, 'connected': 1, 'expired': 0, 'maximum': 2}
