@@ -7,8 +7,8 @@ import random
 import re
 import traceback
 from django.template import Template, Context
-from .ai_factory import create_openai
-from ..models import SinglePromptChat
+from .ai_factory import create_openai, get_llm_provider_from_vendor 
+from ..models import SinglePromptChat, AIVendor
 from .volley import Volley
 
 logger = logging.getLogger(__name__)
@@ -100,7 +100,8 @@ class SingleContextChatSession(ChatSession):
                  model="gpt-3.5-turbo",
                  max_tokens=70,
                  temperature=0.5,
-                 exit_line="Well, that was fun.  Let's move on."
+                 exit_line="Well, that was fun.  Let's move on.",
+                 vendor: AIVendor = AIVendor.OPEN_AI
                  ):
         super().__init__(max_history)
         self._max_volleys = max_volleys        
@@ -118,6 +119,8 @@ class SingleContextChatSession(ChatSession):
         self._notify_handler = None
         self._complete_handler = None
         self._prompt_template = Template(prompt)
+        # default vendor (can be overridden by DB subclass)
+        self._vendor = AIVendor.OPEN_AI
 
     def set_filters(self, pre_filter=None, post_filter=None, complete_handler=None, notify_handler=None):
         self._pre_filter = pre_filter
@@ -196,13 +199,16 @@ class SingleContextChatSession(ChatSession):
             history = copy.deepcopy(self._history)
             self.add_history('user', speech, history)
         try:
-            client = create_openai()
-            resp = client.chat.completions.create(
-                        model=self._model,
-                        messages=context + history,
-                        max_tokens=self._max_tokens,
-                        temperature=self._temperature
-                    ).choices[0].message.content
+            # DEBUG: helpful logs while wiring        
+            logger.info(f"Using vendor={getattr(self._vendor,'name',self._vendor)}, model={self._model}")
+            provider = get_llm_provider_from_vendor(self._vendor, self._model)
+            logger.info(f"Provider class: {provider.__class__.__name__}")            
+            resp = provider.chat(
+                messages=context + history,
+                temperature=self._temperature,
+                stream=False,
+                max_tokens=self._max_tokens
+            )
         except Exception as e:
             logger.warning(f'Exception attempting inference: {e}')
             resp = "Oh no.  I have run into a bug"
@@ -227,7 +233,7 @@ class SingleContextChatSession(ChatSession):
                 model = self._model
             if not max_tokens:
                 max_tokens = self._max_tokens
-            client = create_openai()
+            provider = get_llm_provider_from_vendor(self._vendor, model)
             prompt = prompt_base if prompt_base else _DEFAULT_SUMMARY_PROMPT
             if append_transcript:
                 # Concatenate the chat history into a single string
@@ -237,11 +243,12 @@ class SingleContextChatSession(ChatSession):
             msgs = [ { "role": "user", 
                 "content": prompt
                 } ]
-            resp = client.chat.completions.create(
+            resp = provider.chat(
                     model=model,
                     messages=msgs,
                     max_tokens=max_tokens,
-                    temperature=self._temperature
+                    temperature=self._temperature,
+                    stream=False,
                     ).choices[0].message.content
             return resp
         except Exception as e:
@@ -265,6 +272,9 @@ class SinglePromptDBChatSession(SingleContextChatSession):
     def __init__(self, pk):
         source = SinglePromptChat.objects.get(pk=pk)
         super().__init__(max_history=source.max_history, max_volleys=source.max_volleys, model=source.model, prompt=source.prompt, opener=source.opener, max_tokens=source.max_tokens, temperature=source.temperature)
+        # pick vendor from the DB row
+        self._vendor = source.vendor_enum
+
         if source.code:
             try:
                 loc = locals()
