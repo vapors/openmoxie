@@ -5,6 +5,8 @@ from django.core.exceptions import ValidationError
 
 class AIVendor(Enum):
     OPEN_AI = 1
+    OLLAMA  = 2
+    GROK  = 3
 
 class SinglePromptChat(models.Model):
     name = models.CharField(max_length=200)
@@ -15,6 +17,8 @@ class SinglePromptChat(models.Model):
     opener = models.TextField()
     prompt = models.TextField()
     vendor = models.IntegerField(choices=[(tag.value, tag.name) for tag in AIVendor],default=AIVendor.OPEN_AI.value)
+    # model name comes from DB; for OLLAMA this could be "llama3", "mistral",
+    # "qwen2", etc.; for OpenAI your usual "gpt-3.5-turbo" etc.
     model = models.CharField(max_length=200, default="gpt-3.5-turbo")
     max_tokens = models.IntegerField(default=70)
     temperature = models.FloatField(default=0.5)
@@ -23,6 +27,22 @@ class SinglePromptChat(models.Model):
     
     def __str__(self):
         return self.name
+    
+    # --- optional helpers (nice to have) ---
+    @property
+    def vendor_enum(self) -> AIVendor:
+        """Return AIVendor enum regardless of whether DB gave us an int or the enum."""
+        v = self.vendor
+        return v if isinstance(v, AIVendor) else AIVendor(int(v))
+
+    def is_openai(self) -> bool:
+        return self.vendor_enum == AIVendor.OPEN_AI
+
+    def is_ollama(self) -> bool:
+        return self.vendor_enum == AIVendor.OLLAMA
+
+    def is_grok(self) -> bool:
+        return self.vendor_enum == AIVendor.GROK
     
 class MoxieSchedule(models.Model):
     name = models.CharField(max_length=200)
