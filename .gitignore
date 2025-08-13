@@ -7087,3 +7087,6 @@ local/work/**/*
 .venv/lib/python3.12/site-packages/urllib3-2.5.0.dist-info/WHEEL
 .venv/lib/python3.12/site-packages/urllib3-2.5.0.dist-info/licenses/LICENSE.txt
 site/work/debug.log
+site/work/debug.log
+readme.txt
+.gitignore
