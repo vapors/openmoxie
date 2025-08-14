@@ -16,6 +16,7 @@ class Migration(migrations.Migration):
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=200)),
                 ('openai_api_key', models.TextField(blank=True, default='', null=True)),
+                ('xai_api_key', models.TextField(blank=True, default='', null=True)),
                 ('external_host', models.CharField(blank=True, default='', max_length=255, null=True)),
                 ('allow_unverified_bots', models.BooleanField(default=False)),
             ],
