@@ -13,3 +13,5 @@ qrcode
 Pillow
 unidecode
 deepmerge
+ollama>=0.3.0
+xai-sdk
