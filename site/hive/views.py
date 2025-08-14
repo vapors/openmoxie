@@ -53,6 +53,11 @@ def hive_configure(request):
     openai = request.POST['apikey']
     if openai:
         cfg.openai_api_key = openai
+
+    xai = request.POST['xaikey']
+    if xai:
+        cfg.xai_api_key = xai       
+        
     google = request.POST['googleapikey']
     if google:
         # Moxie likes compact json, so rewrite json input to be safe

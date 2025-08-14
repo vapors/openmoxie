@@ -16,13 +16,15 @@ from django.conf import settings
 
 
 # ---- Local LLM / Provider toggle ----
-LLM_PROVIDER = os.getenv("LLM_PROVIDER", "ollama")   # "ollama" | "openai"
+LLM_PROVIDER = os.getenv("LLM_PROVIDER", "ollama")   # "ollama" | "openai | xai"
 
 # Ollama
 OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://127.0.0.1:11434")
 #OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3")   # e.g. llama3, mistral, qwen2, gemma2, phi4
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.2:3b")   # e.g. llama3, mistral, qwen2, gemma2, phi4
 
+XAI_BASE_URL = os.environ.get("XAI_BASE_URL", None)  # usually not needed
+XAI_MODEL = os.environ.get("XAI_MODEL", "grok-3-mini")
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent

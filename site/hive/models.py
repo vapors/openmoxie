@@ -6,7 +6,7 @@ from django.core.exceptions import ValidationError
 class AIVendor(Enum):
     OPEN_AI = 1
     OLLAMA  = 2
-    GROK  = 3
+    XAI  = 3
 
 class SinglePromptChat(models.Model):
     name = models.CharField(max_length=200)
@@ -42,7 +42,7 @@ class SinglePromptChat(models.Model):
         return self.vendor_enum == AIVendor.OLLAMA
 
     def is_grok(self) -> bool:
-        return self.vendor_enum == AIVendor.GROK
+        return self.vendor_enum == AIVendor.XAI
     
 class MoxieSchedule(models.Model):
     name = models.CharField(max_length=200)
@@ -88,6 +88,9 @@ class MoxieLogs(models.Model):
 class HiveConfiguration(models.Model):
     name = models.CharField(max_length=200)
     openai_api_key = models.TextField(null=True, blank=True, default='')
+    #xai_api_key    = models.CharField(max_length=256, blank=True, default="")   
+    xai_api_key    = models.TextField(blank=True, default="")  # NEW
+
     external_host = models.CharField(max_length=255, null=True, blank=True, default='')
     allow_unverified_bots = models.BooleanField(default=False)
     google_api_key = models.TextField(null=True, blank=True, default='')
