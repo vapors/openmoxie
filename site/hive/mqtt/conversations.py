@@ -1,14 +1,17 @@
 '''
 CONVERSATIONS - Framework for Moxie remote applications / conversations
 '''
+import os
+
 import logging
 import copy
 import random
 import re
 import traceback
 from django.template import Template, Context
-from .ai_factory import create_openai, get_llm_provider_from_vendor 
+from .ai_factory import create_openai, get_llm_provider_from_vendor#, _hive 
 from ..models import SinglePromptChat, AIVendor
+
 from .volley import Volley
 
 logger = logging.getLogger(__name__)
@@ -203,6 +206,13 @@ class SingleContextChatSession(ChatSession):
             logger.info(f"Using vendor={getattr(self._vendor,'name',self._vendor)}, model={self._model}")
             provider = get_llm_provider_from_vendor(self._vendor, self._model)
             logger.info(f"Provider class: {provider.__class__.__name__}")            
+
+            #if self._vendor == AIVendor.XAI:
+            #    hive = _hive()
+            #    if not (hive.xai_api_key or os.getenv("XAI_API_KEY", "")):
+            #        raise RuntimeError("XAI vendor selected but no xAI API key is configured.")
+
+
             resp = provider.chat(
                 messages=context + history,
                 temperature=self._temperature,
