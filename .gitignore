@@ -7480,3 +7480,5 @@ readme.txt
 .venv/lib/python3.12/site-packages/yarl-1.20.1.dist-info/WHEEL
 .venv/lib/python3.12/site-packages/yarl-1.20.1.dist-info/licenses/LICENSE
 .venv/lib/python3.12/site-packages/yarl-1.20.1.dist-info/licenses/NOTICE
+site/work/db.sqlite3
+site/work/debug.log
