@@ -52,9 +52,15 @@
 <form id="hive_edit" action="{% url 'hive:hive_configure' %}" method="post">
     {% csrf_token %}
     <div class="mb-3">
+      <!-- XAI key field -->
+      <label for="xaikey" class="form-label fw-bold fs-5">XAi (Grok) API Key</label>
+      <input type="text" class="form-control" name="xaikey" id="xaikey" aria-describedby="apiHelp" placeholder="{% if object.xai_api_key %}[Key exists and will be kept unless overridden.]{% else %}Paste XAi API key.{% endif %}">
+      <div id="apiHelp" class="form-text text-light">This be be stored in your local database and used locally for xAI and Speech services.</div>
+  </div>
+    <div class="mb-3">
       <label for="apikey" class="form-label fw-bold fs-5">OpenAI API Key</label>
       <input type="text" class="form-control" name="apikey" id="apikey" aria-describedby="apiHelp" placeholder="{% if object.openai_api_key %}[Key exists and will be kept unless overridden.]{% else %}Paste OpenAI API key.{% endif %}">
-      <div id="apiHelp" class="form-text text-light">This be be stored in your local database and used locally for AI and Speech services.</div>
+      <div id="apiHelp" class="form-text text-light">This be be stored in your local database and used locally for openAI and Speech services.</div>
     </div>
     <div class="mb-3">
       <label for="googleapikey" class="form-label fw-bold fs-5">(OPTIONAL) Google Service Account Key</label>
